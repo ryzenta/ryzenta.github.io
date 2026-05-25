@@ -1892,6 +1892,31 @@ body.mobile-nav-active #mobile-nav-toggle {
     max-width: 900px;
 }
 
+.contact-logo-wrapper {
+    padding: 40px 0 12px;
+}
+
+.contact-logo {
+    text-align: center;
+}
+
+.contact-logo img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    display: inline-block;
+}
+
+@media (max-width: 575.98px) {
+    .contact-logo-wrapper {
+        padding: 28px 0 10px;
+    }
+
+    .contact-logo img {
+        max-width: 90px;
+    }
+}
+
 #contact .contact-info img {
     max-width: 100%;
     margin-bottom: 15px;
